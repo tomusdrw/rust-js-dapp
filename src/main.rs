@@ -1,3 +1,7 @@
+fn main() {
+    println!("{}", include_str!("../build"));
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
